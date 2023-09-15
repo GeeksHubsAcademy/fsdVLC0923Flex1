@@ -1,0 +1,71 @@
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#padre {
+
+    height: 20em;
+    width: 60em;
+
+    background-color: darkred;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.hijo {
+
+    height: 8em;
+    width: 8em;
+
+    background-color: white;
+
+    border-radius: 50%;
+}
+
+#izquierda {
+
+    width: 5em;
+    height: 20em;
+
+    background-color: greenyellow;
+}
+
+#izquierda {
+
+    width: 20em;
+    height: 20em;
+
+    background-color: greenyellow;
+}
+
+#centro {
+
+    width: 40em;
+    height: 20em;
+
+    background-color: brown;
+}
+
+#derecha {
+
+    width: 20em;
+    height: 20em;
+
+    background-color: greenyellow;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
